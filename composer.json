@@ -1,0 +1,23 @@
+{
+    "name": "rafa/world-statistics-analytics",
+    "require": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "authors": [
+        {
+            "name": "Rafa",
+            "email": "wirecobweb@gmail.com"
+        }
+        
+    ],
+    "autoload": {
+        "psr-4": {
+            "WorldAnalysis\\Msql\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WorldAnalysis\\Tests\\": "tests/"
+        }
+    }
+}
