@@ -7,4 +7,10 @@
                 <directory>./tests</directory>
             </testsuite>
         </testsuites>
+        <php>
+        <var name="DB_DSN" value="mysql:dbname=INMOLOSA;host=localhost" />
+        <var name="DB_USER" value="root" />
+        <var name="DB_PASSWD" value="follamoscongordas" />
+        <var name="DB_DBNAME" value="INMOLOSA" />
+        </php>
 </phpunit>

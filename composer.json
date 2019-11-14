@@ -12,12 +12,17 @@
     ],
     "autoload": {
         "psr-4": {
-            "WorldAnalysis\\Msql\\": "src/"
+            "WorldAnalysis\\Mysql\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "WorldAnalysis\\Tests\\": "tests/"
         }
+    },
+    "config": {
+        "optimize-autoloader":
+            true
+
     }
 }
