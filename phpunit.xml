@@ -3,8 +3,8 @@
         colors="true"
         bootstrap="vendor/autoload.php">
         <testsuites>
-            <testsuite>
-                <director>tests</director>
+            <testsuite name="test world statistics">
+                <directory>./tests</directory>
             </testsuite>
         </testsuites>
 </phpunit>
